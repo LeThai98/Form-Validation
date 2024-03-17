@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://kit.fontawesome.com/861968f9a5.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    <div class="container flex-center">
+        <div class="form">
+            <i class="fa-solid fa-paper-plane"></i>
+            <div class="name-input flex-space-around">
+                <span>Full Name</span>
+                <div class="input">
+                    <input type="text" placeholder="Enter your name">
+                    <span class="invalid">name is required</span>
+                </div>
+            </div>
+            <div class="phone-input flex-space-around">
+                <span>Phone No.</span>
+                <div class="input">
+                    <input type="text" placeholder="0123 456 789">
+                    <span class="invalid">phone is required</span>
+                </div>
+            </div>
+            <div class="email-input flex-space-around">
+                <span>Email Id</span>
+                <div class="input">
+                    <input type="text" placeholder="Enter Email">
+                    <span class="invalid">mail is required</span>
+                </div>
+            </div>
+            <div class="message-input"></div>
+            <div class="check-message"></div>
+        </div>
+        
+    </div>
+    <script src="fontAwesome.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

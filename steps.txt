@@ -1,0 +1,10 @@
+        Position and Layout for each Validation element
+1. Position Icon with Absolute Position
+2. Normal Document FLow for each  Validation Field( Name, Phone, Email, Message, Submit)
+------------------------
+        Using Javascript to get value from Input , handle KeyUp Event, validate Data with the Format, Show  error
+3. Handle KeyUp Event with each Validation Function
+4. Get value from Input
+5. CHeck value if it match with the Format. If not, change Inner HTML of Span element
+6. Check all validation fucntion, If having false result => use SetTimeOut to display message in 3 seconds
+-----------------------
